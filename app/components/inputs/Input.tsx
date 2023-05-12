@@ -65,7 +65,7 @@ const Input: React.FC<InputProps> = ({
                         "pl-4"
                     }
                     ${errors[id] ? 
-                        'border-red-950 focus:border-red-950' : 
+                        'border-red-700 focus:border-red-700' : 
                         'border-neutral-300 focus:border-black' 
                     }
                 `}
@@ -88,7 +88,7 @@ const Input: React.FC<InputProps> = ({
                 peer-focus:scale-75
                 peer-focus:-translate-y-4
                 ${errors[id] ? 
-                    'text-red-950' : 
+                    'text-red-700' : 
                     'text-zinc-400'
                 }
             `}>

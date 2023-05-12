@@ -8,13 +8,13 @@ const Search = () => {
             w-full
             md:w-auto
             py-2
-            rounded-full
-            shadow-sm
-            hover:shadow-md
             transition
             cursor-pointer
-            bg-red-50
             text-palette-dark
+            border-palette-dark
+            bg-red-50
+            rounded-t-md
+            border-b-2
         ">
             <div className="
                 flex
@@ -36,6 +36,7 @@ const Search = () => {
                     font-semibold
                     px-6
                     border-x-[1px]
+                    border-palette-dark
                     flex-1
                     text-center
                 ">
@@ -54,8 +55,7 @@ const Search = () => {
                     <div className="
                         p-2
                         rounded-full
-                        bg-palette-dark
-                        text-white
+                        text-palette-dark
                     ">
                         <BiSearch size={18} />
                     </div>
