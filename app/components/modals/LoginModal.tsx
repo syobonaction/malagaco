@@ -94,7 +94,7 @@ const LoginModal = () => {
                 outline
                 label="Continue with Google"
                 icon={FcGoogle}
-                onClick={() => {}}
+                onClick={() => signIn('google')}
             />
             <div className="
                 text-neutral-500
@@ -110,17 +110,17 @@ const LoginModal = () => {
                     gap-2
                 ">
                     <div>
-                        Already have an account?
+                        First time user?
                     </div>
                     <div 
-                        onClick={registerModal.onClose}
+                        onClick={loginModal.onClose}
                         className="
                             text-neutral-800
                             cursor-pointer
                             hover:underline
                         "
                     >
-                        Log in
+                        Create an Account
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@ model Account {
   access_token String? @db.String
   expires_at Int?
   token_type String?
-  Scope String?
+  scope String?
   id_token String? @db.String
   session_state String?
 
