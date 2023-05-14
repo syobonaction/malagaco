@@ -61,6 +61,11 @@ const LoginModal = () => {
         })
     }
 
+    const toggle = useCallback(() => {
+        loginModal.onClose()
+        registerModal.onOpen()
+    }, [loginModal, registerModal])
+
     const bodyContent = (
         <div className="flex flex-col gap-4">
             <Heading 
@@ -113,7 +118,7 @@ const LoginModal = () => {
                         First time user?
                     </div>
                     <div 
-                        onClick={loginModal.onClose}
+                        onClick={toggle}
                         className="
                             text-neutral-800
                             cursor-pointer

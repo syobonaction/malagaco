@@ -14,7 +14,7 @@ import CategoryBox from "../CategoryBox"
 import { usePathname, useSearchParams } from "next/navigation"
 
 
-export const categories = [
+export const neighborhoods = [
     {
         label: "La Malagueta",
         icon: TbBeach,
@@ -83,7 +83,7 @@ const Neighborhoods = () => {
                 justify-between
                 overflow-x-auto
             ">
-                {categories.map((item) => (
+                {neighborhoods.map((item) => (
                     <CategoryBox 
                         key={item.label}
                         label={item.label}

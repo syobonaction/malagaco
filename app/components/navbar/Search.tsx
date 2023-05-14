@@ -12,7 +12,7 @@ const Search = () => {
             cursor-pointer
             text-palette-dark
             border-palette-dark
-            bg-red-50
+            bg-neutral-50
             rounded-t-md
             border-b-2
         ">
