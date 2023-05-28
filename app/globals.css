@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.leaflet-bottom,
+.leflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}

@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
                         transition-all
                         cursor-pointer
                 ">
-                    For Hosts
+                    List with us
                 </div>
                 <div className="
                     hidden

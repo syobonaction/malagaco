@@ -8,7 +8,6 @@ import RentModal from './components/modals/RentModal'
 import { Toaster } from 'react-hot-toast'
 import getCurrentUser from './actions/getCurrentUser'
 
-
 const font = Inter({ 
   subsets: ["latin"]
 })
